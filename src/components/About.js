@@ -1,11 +1,16 @@
-import "./aboutMe.css"
+import "./aboutMe.css";
 
 export default function About() {
     return (
-        <div id="aboutMe" className="aboutContainer" >
-            <div>
-                <h2>About Me</h2>
-                <p>I'm a third year student
+        <div  id="aboutMe"
+             className="aboutContainer bg-dark text-light d-flex justify-content-center align-items-center"
+        >
+
+            <div className="aboutContainer">
+                <h2 className="mb-5 text-center">ABOUT ME</h2>
+
+                <p className="text-center">
+                    I'm a third year student
                     at George Brown College for Computer Programming. I’m familiar with a variety
                     of computer programming languages and markup. I have a few hobbies that include
                     sports, football,basketball and swimming. Some of the relevant course work that
@@ -16,5 +21,5 @@ export default function About() {
                 </p>
             </div>
         </div>
-    )
+    );
 }

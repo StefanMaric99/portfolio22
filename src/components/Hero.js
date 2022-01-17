@@ -1,15 +1,13 @@
-import Navbar from "./Navbar";
-import "./Hero.css"
-
+import "./Hero.css";
 
 export default function Hero() {
     return (
-        <div id="hero" className="heroContainer d-flex justify-content-center align-items-center w-100 text-light">
+        <div className="section" id="hero" className="heroContainer d-flex justify-content-center align-items-center text-light">
             <div>
-            <h1>Software Dev</h1>
-            <h2>Studying @ George Brown College.</h2>
+                <h1 className="text-center">SOFTWARE</h1>
+                <h1 className="text-center">DEV</h1>
+                <p className="text-center">Software Developer Student @ George Brown College</p>
             </div>
-
-            </div>
+        </div>
     )
 }
