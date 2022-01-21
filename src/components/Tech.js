@@ -1,39 +1,30 @@
+import "./Tech.css";
+import IconGenerator from "./iconGenerator";
+import icons from "./icons";
+
 const TECH = "TECHNOLOGIES AND LANGUAGES";
 const STUDY = "CURRENTLY STUDYING";
 
-function Img() {
+function SubTech({title}) {
     return (
-        <div
-            style={{
-                width: "50px",
-                height: "50px",
-                background: "black",
-                borderRadius: "50%"
-            }}
-        ></div>
-    );
-}
-
-const imgs = [1,2,3,4,5,6,7,8]
-const imgs2 = [1,2,3,4]
-
-function SubTech({ title }) {
-    return (
-        <div>
-            <h2>{title}</h2>
+        <div className="mb-5">
+            <h2 className="text-center mb-5">{title}</h2>
 
             {title === TECH ? (
                 <div className="d-flex">
-                    {imgs.map(i => {
+                    {icons['tech'].map((i, index) => {
                         return (
-                            <Img />
+                            <IconGenerator key={index} icon={i}/>
                         )
                     })}
-                    <Img />
                 </div>
             ) : (
-                <div>
-                    <p>Study Images</p>
+                <div className="d-flex justify-content-center">
+                    {icons['study'].map((i, index) => {
+                        return (
+                            <IconGenerator key={index} icon={i}/>
+                        )
+                    })}
                 </div>
             )}
         </div>
@@ -42,9 +33,9 @@ function SubTech({ title }) {
 
 export default function Tech() {
     return (
-        <div className="section d-flex justify-content-center align-items-center flex-column">
-            <SubTech title={TECH} />
-            <SubTech title={STUDY} />
+        <div id="tech" className="section d-flex justify-content-center align-items-center flex-column">
+            <SubTech title={TECH}/>
+            <SubTech title={STUDY}/>
         </div>
     );
 }
