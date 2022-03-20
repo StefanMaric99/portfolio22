@@ -1,3 +1,3 @@
-export default function IconGenerator({icon}) {
-    return <i className={icon + " colored"} style={{fontSize: '100px', marginRight:"10px"}} />
+export default function IconGenerator({icon, fontSize="100px"}) {
+    return <i className={icon + " colored"} style={{fontSize: fontSize, marginRight:"10px"}} />
 }

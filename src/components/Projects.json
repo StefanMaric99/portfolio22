@@ -1,29 +1,36 @@
 [
   {
-    "title": "Project A",
-    "description": "Mern Stack",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    "git": "#"
+    "title": "Chat App",
+    "description": "Developed with angular",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    "git": "https://github.com/StefanMaric99/101208175_lab_test1_chat_app"
   },
 
   {
-    "title": "Project B",
-    "description": "Mern Stack",
+    "title": "Mobile App",
+    "description": "Weather App",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    "git": "#"
+    "git": "https://github.com/StefanMaric99/Mobile_Project"
   },
 
   {
-    "title": "Project C",
-    "description": "Mern Stack",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    "git": "#"
+    "title": "Sport App",
+    "description": "Management App",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+    "git": "https://github.com/StefanMaric99/Sport-Management-A2"
   },
 
   {
-    "title": "Project D",
-    "description": "Mern Stack",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    "git": "#"
+    "title": "Mobile App",
+    "description": "Pay Calculator",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
+    "git": "https://github.com/StefanMaric99/Pay-Calc-App"
+  },
+
+  {
+    "title": "Mobile App",
+    "description": "Swift Labtest",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+    "git": "https://github.com/StefanMaric99/Labtest1-Ios/settings"
   }
 ]

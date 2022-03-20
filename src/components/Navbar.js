@@ -21,6 +21,9 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="#project">PROJECT</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="https://drive.google.com/file/d/1SXycGBAQGjnsXLBH6Q2i4DBL3LylnXNl/view" target="_blank">RESUME</a>
+                        </li>
                     </ul>
                 </div>
             </div>

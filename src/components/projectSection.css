@@ -1,0 +1,8 @@
+.doc-link {
+  text-decoration: none;
+  color: black;
+}
+
+.doc-link:hover {
+  text-decoration: underline;
+}
