@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#top">Navbar</a>
+                <a className="navbar-brand" href="#top">Stefan Maric</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -23,6 +23,9 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://drive.google.com/file/d/1SXycGBAQGjnsXLBH6Q2i4DBL3LylnXNl/view" target="_blank">RESUME</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="https://drive.google.com/file/d/1nRGF9A6wRGupKXMYYlSpBeEp57qnMICg/view?usp=sharing" target="_blank">Cover Letter</a>
                         </li>
                     </ul>
                 </div>

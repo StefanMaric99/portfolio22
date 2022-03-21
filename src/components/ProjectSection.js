@@ -7,7 +7,7 @@ import "./projectSection.css";
 export default function ProjectSection() {
     return (
         <div className="section d-flex justify-content-center align-items-center flex-column">
-            <h2>Projects</h2>
+            <h2>Academic Work and Capstone Project</h2>
 
             <div className="d-flex">
 
